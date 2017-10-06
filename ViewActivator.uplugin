@@ -14,10 +14,10 @@
 	"IsBetaVersion": false,
 	"Installed": false,
 	"Modules": [
-		{
-			"Name": "ViewActivator",
-			"Type": "Developer",
-			"LoadingPhase": "Default"
-		}
+    {
+      "Name": "ViewActivator",
+      "Type": "Developer",
+      "LoadingPhase": "PostEngineInit"
+    }
 	]
 }

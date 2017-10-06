@@ -12,7 +12,7 @@ FViewPair::FViewPair(FName InViewName)
 	ConstructorHelpers::FClassFinder<UViewWidget> ViewClassFinder(*InViewName.ToString());
 	ViewClass = ViewClassFinder.Class;
 
-	check(ViewClass);
+	//check(ViewClass);
 }
 
 void FViewPair::PreShow(UObject* InParent)

@@ -5,7 +5,7 @@
 
 UPopupMessage::UPopupMessage()
 {
-	FViewManager::Get()->RegisterView(UPopupMessage::StaticClass(), TEXT("/Game/Empires/UI/Blueprints/WBP_PopupMessage"));
+	FViewManager::Get()->RegisterView(UPopupMessage::StaticClass(), TEXT("WidgetBlueprint'/ViewActivator/WBP_PopupMessage.WBP_PopupMessage'"));
 }
 
 void UPopupMessage::Show_Implementation(UObject* InWorldContextObject, const FText& InText, const FColor& InColor /*= FColor::White*/, const float& InTime /*= 3.0f*/)
